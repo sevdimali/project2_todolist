@@ -16,10 +16,10 @@ function addTodo(e){
   const newTodo = todoInput.value.trim();
      if (newTodo === "") {
          showAlert();
-         else {
-
-         }
+     else {
          addTodoToUI(newTodo);
+     }
+         
   
      }
 
